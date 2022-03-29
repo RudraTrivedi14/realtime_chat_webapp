@@ -22,37 +22,27 @@
             <div class="users-window">
                 <div class="users-head">
                     <h3>People</h3>
-                    <h4>3</h4> 
+                    <h4 class="users-count">0</h4> 
                 </div>
                 <div class="users-list">
-                    <p>BRAHMA</p>
-                    <p>VISHNU</p>
-                    <P>MAHESH</P>
+                    
                 </div>
             </div>
             <div class="chat-window">
                  <div class="chats">
-                     <div class="user-join">
-                         <p><b>BRAHMA</b>joined the chat</p>
-                     </div>
-                    <div class="message incoming">
-                        <h5>BRAHMA</h5>
-                        <p>Hello Universe!!!</p>
-                    </div>
-                    <div class="message outgoing">
-                        <h5>VISHNU</h5>
-                        <p>Hello Laxmi!!!</p>
-                    </div>
+                     
+                   
                  </div>
                  <div class="user-input">
                      <input type="text"  id="msg" placeholder="Enter Your Message...">
-                     <button id="send">SEND</button>
+                     <button type="button" id="send">SEND</button>
                  </div>
             </div>
         </div>
     </main>
 
-   
+   <script src="/socket.io/socket.io.js"></script>
+   <script src="/js/client.js"></script>
     
 </body>
 </html>
